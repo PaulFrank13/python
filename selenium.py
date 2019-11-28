@@ -13,3 +13,5 @@ else:
     print('Запуск браузера в обычном режими.')
 
 driver = webdriver.Chrome(options=options)
+
+driver.close()
